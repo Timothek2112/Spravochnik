@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.izgotovlenie1.izgotovlenie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="Перегонка"
+                android:textAlignment="center"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:src="@mipmap/main" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="Мнения разнятся. Некоторые на этом этапе делают дробную перегонку, то есть отделяют «головы». Другие не заботятся о качестве спирта-сырца и при первой перегонке ничего не отделяют.  Логика присутствует в обоих решениях, но я решил пойти по первому пути." />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:src="@mipmap/ochistka" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="Перегонял брагу два раза, потому что перегонный куб моего аппарата вмещает 20 литров жидкости. В первый раз я залил в него 14 литров браги. Я поступил опрометчиво и перегонял брагу при достаточно высокой температуре. Да, это заняло меньше времени, но из охладителя лился горячий спирт-сырец, и качество продукта хромало. Во второй раз, когда я перегонял оставшиеся 8 литров, выкрутил конфорку на минимум. Это заняло в два раза больше времени, но спирт уже не так сильно отдавал сивушными маслами. Остановил перегонку, когда крепость спирта на выходе стала равна 30 градусам. Первая перегонка принесла мне 6 литров вонючего спирта-сырца." />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:src="@mipmap/ochistka2" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="Вторую перегонку я начал в девять вечера, а закончил в 3 ночи (потратил шесть часов). Первым делом я смешал спирт с покупной водой (купил детскую — она мягче). Получил 16 литров спиртосодержащей жидкости крепостью 25 градусов. Все это залил в перегонный куб и начал работать.  Во второй раз надо обязательно отделять «головы» и «хвосты». На один килограмм сахара приходится примерно 50 миллилитров «голов». Таким образом я отобрал 350 миллилитров вредной жидкости. На этом этапе первым делом нужно снизить мощность плиты до минимума, чтобы получить более чистый продукт." />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:src="@mipmap/peregonka1" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="«Тело» — это то, что можно пить. Эту часть можно гнать на повышенных оборотах. Струйка должна перемежаться каплями (2-3 капли в секунду). Основную часть нужно отбирать до того, как крепость жидкости, которая льется из охладителя, не станет равна 50-ти градусам. Для определения крепости в режиме «онлайн» можно использовать «попугай». Это специальное приспособление, в которое вы помещаете ареометр. Если «попугая» нет, то придется время от времени проверять крепость другим способом: наполнять мерную колбу и помещать ареометр непосредственно в нее." />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="200dp"
+                android:src="@mipmap/peregonka21" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

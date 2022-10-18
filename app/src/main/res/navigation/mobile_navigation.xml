@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:label="Галерея"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
+        android:label="Контакты"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/bragaFragment"
+        android:name="com.example.myapplication.ui.bragaFragment.BragaFragment"
+        android:label="Изготовление браги Часть 1"
+        tools:layout="@layout/fragment_braga" />
+    <fragment
+        android:id="@+id/braga2Fragment"
+        android:name="com.example.myapplication.ui.braga2Fragment.braga2Fragment"
+        android:label="Изготовление браги Часть 2"
+        tools:layout="@layout/fragment_braga2" />
+    <fragment
+        android:id="@+id/izgotovlenie"
+        android:name="com.example.myapplication.ui.izgotovlenie1.izgotovlenie"
+        android:label="Изготовление"
+        tools:layout="@layout/fragment_izgotovlenie" />
+
+</navigation>

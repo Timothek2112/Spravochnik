@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bragaFragment.BragaFragment">
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="731dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="ИЗГОТОВЛЕНИЕ БРАГИ ЧАСТЬ 1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Просмотрев сотни видео на YouTube и выслушав рекомендации бывалых товарищей-самогонщиков, я принялся за изготовление сахарной браги. Сперва купил 25-литровую стеклянную емкость со встроенным гидрозатвором. Воду для браги я брал из-под крана, но при этом фильтровал ее обычным домашним фильтром. Всего в емкость я налил 18 литров воды." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:paddingLeft="20dp"
+                android:src="@mipmap/braga1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Можно использовать пластиковые емкости. Все это продается в специализированных магазинах. Второй пункт — сахар. В отфильтрованную воду я насыпал 7 килограммов сахара, который купил в «Пятерочке», и тщательно все размешал. Килограмм сахара стоил 50 рублей." />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:src="@mipmap/braga2" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="200dp"
+                android:text="На емкость я наклеил термометр. Обычно такие термометры используются для аквариумов, но в нашем деле тоже сгодятся. Он показывает температуру от 18 до 34 градусов. Температура воды должна остановиться на отметке +/-25 градусов." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
