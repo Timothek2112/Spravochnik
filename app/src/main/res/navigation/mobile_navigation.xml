@@ -37,5 +37,10 @@
         android:name="com.example.myapplication.ui.izgotovlenie1.izgotovlenie"
         android:label="Изготовление"
         tools:layout="@layout/fragment_izgotovlenie" />
+    <fragment
+        android:id="@+id/braga3Fragment"
+        android:name="com.example.myapplication.ui.braga3Fragment.braga3Fragment"
+        android:label="Перегонка часть 2"
+        tools:layout="@layout/fragment_braga3" />
 
 </navigation>

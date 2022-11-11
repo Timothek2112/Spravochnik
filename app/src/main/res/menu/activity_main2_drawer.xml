@@ -28,6 +28,11 @@
             android:id="@+id/izgotovlenie"
             android:title="Перегонка"
             />
+        <item
+            android:id="@+id/braga3Fragment"
+            android:title="Перегонка часть 2"
+            />
+
 
     </group>
 </menu>

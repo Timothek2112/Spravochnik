@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.braga3Fragment.braga3Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="ИЗГОТОВЛЕНИЕ БРАГИ ЧАСТЬ 2"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:src="@mipmap/braga3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Основной ингредиент — дрожжи! В магазине мне впарили так называемые турбо-дрожжи. Они лучше справляются с приготовлением браги, работают быстрее, и, на словах, брага получается более крепкой. В получившуюся сладкую воду я засыпал всю упаковку дрожжей." />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:src="@mipmap/braga4" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Я перемешал то, что вышло, и оставил брагу в темном месте (под столом). Предварительно закрыл емкость гидрозатвором и налил в него воды. Гидрозатвор пропускает газ, который вырабатывают дрожжи, но при этом не позволяет никакой заразе попасть внутрь емкости.  " />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:src="@mipmap/braga5" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Оставляем дрожжи работать Пока брага готовилась, я приобрел самогонный аппарат. Это классический аппарат с проточным охлаждением и сухопарником. На выходе получается не такая уж крепкая спиртосодержащая жидкость. Для получения более крепкого и чистого напитка необходимо использовать ректификационные колонны. Однако для первого раза сойдет и такой." />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="200dp"
+                android:src="@mipmap/braga6" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
